@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artesanías Únicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Artesanías Únicas</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Nuestros Productos</h2>
+        <div class="font_s">
+        <p class="font">Descubre nuestras increíbles artesanías hechas a mano por talentosos artesanos.</p>
+        </div>
+    </section>
+    <section id="productos">
+        <div class="productos-grid">
+            <div class="producto">
+                <img src="Imagenes/Producto1.jpg" alt="Producto 1">
+                <h3>Producto 1</h3>
+                <p>Plato decorativo con hermosos acabados coloridos.</p>
+                <button class="ver-mas" data-producto="1">Ver más</button>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/Producto2.jpg" alt="Producto 2">
+                <h3>Producto 2</h3>
+                <p>Plato decorativo con acabado en forma de corazón.</p>
+                <button class="ver-mas" data-producto="2">Ver más</button>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/Producto3.jpg" alt="Producto 3">
+                <h3>Producto 3</h3>
+                <p>Set de tres platos decorativos con hermosos acabados coloridos.</p>
+                <button class="ver-mas" data-producto="3">Ver más</button>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/Producto4.jpg" alt="Producto 4">
+                <h3>Producto 4</h3>
+                <p>Individuales azules.</p>
+                <button class="ver-mas" data-producto="4">Ver más</button>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/Producto5.jpg" alt="Producto 5">
+                <h3>Producto 5</h3>
+                <p>Individual con tonos cafés.</p>
+                <button class="ver-mas" data-producto="5">Ver más</button>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/Producto6.jpg" alt="Producto 6">
+                <h3>Producto 6</h3>
+                <p>Combo de individuales con tonos cafés.</p>
+                <button class="ver-mas" data-producto="6">Ver más</button>
+            </div>
+            <div class="producto">
+                <img src="Imagenes/Producto7.jpg" alt="Producto 7">
+                <h3>Producto 7</h3>
+                <p>Individual gris con acabados en crochet.</p>
+                <button class="ver-mas" data-producto="7">Ver más</button>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="us">
+        <h2>Sobre Nosotros</h2>
+        <div>
+        <p class="aboutus">Somos una comunidad de artesanos dedicados a crear piezas únicas y especiales para nuestros clientes. Cada una de nuestras artesanías es elaborada con amor y dedicación, utilizando técnicas tradicionales transmitidas de generación en generación. Nuestro compromiso con la artesanía no solo se refleja en la calidad de nuestros productos, sino también en nuestra pasión por preservar y promover nuestras ricas tradiciones culturales. Nos enorgullece trabajar con materiales de alta calidad y sostenibles, asegurándonos de que cada pieza sea tanto hermosa como duradera, respetando al mismo tiempo el medio ambiente. <b>Creemos firmemente en el valor de lo hecho a mano</b>, donde cada producto cuenta una historia y tiene su propia personalidad, reflejando la pasión, creatividad y esfuerzo de su creador.
+        </p>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form class="formulario">
+            <input class="formulario_input" type="text" placeholder="Nombre">
+            <input class="formulario_input" type="email" placeholder="Email">
+            <textarea class="formulario_input" placeholder="Mensaje"></textarea>
+            <input class="formulario_input" type="submit" value="Enviar">
+        </form>
+    </section>
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Artesanías Únicas. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
